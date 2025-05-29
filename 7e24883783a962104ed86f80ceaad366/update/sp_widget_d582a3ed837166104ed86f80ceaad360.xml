@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $location,$timeout,spUtil) {
+  /* widget controller */
+  var c = this;
+	// g_formの呼び出し
+	var g_form = $scope.page.g_form;
+	
+	// OnChange
+	$rootScope.$on("field.change",function(evt, parms) {
+  	if (parms.field.name == "facilitys") {
+			c.data.facility = g_form.getValue('facilitys')
+			c.server.update();
+  	}
+  })	
+}
+
+/*$scope.selectSlot = function (slot){
+	g_form.setValue('reserved_time')= slot;
+}*/]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>test</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>test</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	
+	
+	var slots = [];
+	// 更新前処理
+	if(!input) {
+		//data.facility = "";
+		/*slots.push({
+			id: "addfadsf",
+			start: "10:00",
+			end: "11:00",
+			is_available: 'true'
+		});
+		data.slots = slots;*/
+	}
+	
+	// 更新後処理
+	if(input) {
+		slots.push({
+			id: "addfadsf",
+			start: "12:00",
+			end: "13:00",
+			is_available: 'true'
+		});
+		data.slots = slots;
+		//gs.addInfoMessage(input.facility)
+	}
+})();
+
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-29 05:00:41</sys_created_on>
+        <sys_id>d582a3ed837166104ed86f80ceaad360</sys_id>
+        <sys_mod_count>72</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>sp_widget_d582a3ed837166104ed86f80ceaad360</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-29 10:28:33</sys_updated_on>
+        <template><![CDATA[<table class="table table-bordered">
+  <thead>
+    <tr><th>時間帯</th><th>空き状況</th></tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="slot in data.slots">
+      <td>{{slot.start}} ～ {{slot.end}}</td>
+      <td>
+        <button class="btn btn-success"
+                ng-click="selectSlot(slot)"
+                ng-disabled="!slot.is_available">
+          {{ slot.is_available ? '予約する' : '×' }}
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>d582a3ed837166104ed86f80ceaad360</id>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-29 05:00:41</sys_created_on>
+        <sys_id>7492e72d837166104ed86f80ceaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-29 05:00:41</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
