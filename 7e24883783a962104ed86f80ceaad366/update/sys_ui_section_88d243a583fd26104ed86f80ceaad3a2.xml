@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Information" section_id="88d243a583fd26104ed86f80ceaad3a2" sys_domain="global" table="x_1300226_smpsalon_samplefacilitymodel" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>power_consumption</element>
+            <position>0</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-29 02:41:55</sys_created_on>
+            <sys_id>0cd243a583fd26104ed86f80ceaad3a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_1300226_smpsalon_samplefacilitymodel" sys_domain="global" view="Default view">88d243a583fd26104ed86f80ceaad3a2</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-29 02:41:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rack_units</element>
+            <position>1</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-29 02:41:55</sys_created_on>
+            <sys_id>04d243a583fd26104ed86f80ceaad3a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_1300226_smpsalon_samplefacilitymodel" sys_domain="global" view="Default view">88d243a583fd26104ed86f80ceaad3a2</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-29 02:41:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>flow_rate</element>
+            <position>2</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-29 02:41:55</sys_created_on>
+            <sys_id>0cd243a583fd26104ed86f80ceaad3a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_1300226_smpsalon_samplefacilitymodel" sys_domain="global" view="Default view">88d243a583fd26104ed86f80ceaad3a2</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-29 02:41:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sound_power</element>
+            <position>3</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-29 02:41:55</sys_created_on>
+            <sys_id>0cd243a583fd26104ed86f80ceaad3a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_1300226_smpsalon_samplefacilitymodel" sys_domain="global" view="Default view">88d243a583fd26104ed86f80ceaad3a2</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-29 02:41:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-29 02:41:55</sys_created_on>
+            <sys_id>04d243a583fd26104ed86f80ceaad3a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_1300226_smpsalon_samplefacilitymodel" sys_domain="global" view="Default view">88d243a583fd26104ed86f80ceaad3a2</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-29 02:41:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>weight</element>
+            <position>5</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-29 02:41:55</sys_created_on>
+            <sys_id>04d243a583fd26104ed86f80ceaad3a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_1300226_smpsalon_samplefacilitymodel" sys_domain="global" view="Default view">88d243a583fd26104ed86f80ceaad3a2</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-29 02:41:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expected_lifetime_co2e</element>
+            <position>6</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-29 02:41:55</sys_created_on>
+            <sys_id>0cd243a583fd26104ed86f80ceaad3a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_1300226_smpsalon_samplefacilitymodel" sys_domain="global" view="Default view">88d243a583fd26104ed86f80ceaad3a2</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-29 02:41:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>energy_use</element>
+            <position>7</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-29 02:41:55</sys_created_on>
+            <sys_id>0cd243a583fd26104ed86f80ceaad3a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_1300226_smpsalon_samplefacilitymodel" sys_domain="global" view="Default view">88d243a583fd26104ed86f80ceaad3a2</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-29 02:41:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>energy_star</element>
+            <position>8</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-29 02:41:55</sys_created_on>
+            <sys_id>04d243a583fd26104ed86f80ceaad3a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_1300226_smpsalon_samplefacilitymodel" sys_domain="global" view="Default view">88d243a583fd26104ed86f80ceaad3a2</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-29 02:41:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Information</caption>
+            <header>false</header>
+            <name>x_1300226_smpsalon_samplefacilitymodel</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-29 02:41:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88d243a583fd26104ed86f80ceaad3a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1300226_smpsalon_samplefacilitymodel</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+            <sys_update_name>sys_ui_section_88d243a583fd26104ed86f80ceaad3a2</sys_update_name>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-29 02:41:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

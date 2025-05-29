@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category display_value="施設利用">f06b6e1d8379e2104ed86f80ceaad308</sc_category>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">cd5deadd8379e2104ed86f80ceaad33e</sp_column>
+        <sp_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-28 06:29:36</sys_created_on>
+        <sys_id>f15d6e9d8379e2104ed86f80ceaad35e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>予約</sys_name>
+        <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>sp_instance_link_f15d6e9d8379e2104ed86f80ceaad35e</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-28 06:31:20</sys_updated_on>
+        <title>予約</title>
+        <type>sc_category</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=f15d6e9d8379e2104ed86f80ceaad35e"/>
+</record_update>

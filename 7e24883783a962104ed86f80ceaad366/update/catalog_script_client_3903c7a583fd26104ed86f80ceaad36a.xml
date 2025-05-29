@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="施設利用予約_sc_cat_item_producer">3bccee9d8379e2104ed86f80ceaad3be</cat_item>
+        <cat_variable>IO:cd0bb22d83bd26104ed86f80ceaad34f</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Show Facility Information</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading || newValue == '') {
+		return;
+	}
+
+	var infomation;
+
+	/*var facility_name  = newValue.location.city; // 建物名
+	var zip_code       = newValue.location.zip;  // 郵便番号
+	var city           = newValue.location.city; // 市区町村
+	var street         = newValue.location.city; // 番地・建物名・部屋番号
+	var phone_number   = newValue.location.phone; // 電話番号
+
+	var available_time = newValue.u_available_time; // 利用可能時間
+	var cost           = newValue.cost; // 利用料金
+
+	infomation = infomation + "建物名：" + facility_name + "\r\n";
+	infomation = infomation + "郵便番号：" + zip_code + "\r\n";
+	infomation = infomation + "住所：" + city + " " + street + "\r\n";
+	infomation = infomation + "電話番号：" + phone_number + "\r\n";
+
+	infomation = infomation + available_time + "時間当たりの利用料金：" + cost + "円\r\n";*/
+
+	infomation = "<p>a</p><br><p>a</p>";
+
+	g_form.setValue('facility_info', infomation);
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-29 02:53:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3903c7a583fd26104ed86f80ceaad36a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Show Facility Information</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>catalog_script_client_3903c7a583fd26104ed86f80ceaad36a</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-29 04:27:39</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>3903c7a583fd26104ed86f80ceaad36a</id>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-29 02:53:21</sys_created_on>
+        <sys_id>ef6503e583fd26104ed86f80ceaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-29 02:53:21</sys_updated_on>
+        <table>catalog_script_client</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
