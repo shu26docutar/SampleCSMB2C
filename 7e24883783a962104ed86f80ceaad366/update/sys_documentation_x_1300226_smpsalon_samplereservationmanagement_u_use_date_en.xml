@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_use_date" label="利用対象日" language="en" table="x_1300226_smpsalon_samplereservationmanagement">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_use_date</element>
+            <help/>
+            <hint/>
+            <label>利用対象日</label>
+            <language>en</language>
+            <name>x_1300226_smpsalon_samplereservationmanagement</name>
+            <plural>利用対象日s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-30 01:53:02</sys_created_on>
+            <sys_id>4a310882837122104ed86f80ceaad3b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>利用対象日</sys_name>
+            <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+            <sys_update_name>sys_documentation_x_1300226_smpsalon_samplereservationmanagement_u_use_date_en</sys_update_name>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-30 01:53:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

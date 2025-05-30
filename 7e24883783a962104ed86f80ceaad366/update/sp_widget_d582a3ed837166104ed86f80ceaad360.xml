@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[function($scope, $location,$timeout,spUtil) {
-  /* widget controller */
+        <client_script><![CDATA[function($scope, $location, $timeout, spUtil) {
+
   var c = this;
+	
 	// g_formの呼び出し
 	var g_form = $scope.page.g_form;
 	
@@ -13,12 +14,16 @@
 			c.data.facility = g_form.getValue('facilitys')
 			c.server.update();
   	}
-  })	
-}
-
-/*$scope.selectSlot = function (slot){
-	g_form.setValue('reserved_time')= slot;
-}*/]]></client_script>
+  });
+	
+	$scope.selectSlot = function(timeIndex, dataIndex) {
+		var reserve_time = $scope.data.slots[timeIndex].label.split("～");
+		
+		g_form.setValue('u_use_date', $scope.data.dateList[dataIndex]);
+		g_form.setValue('u_use_start_time', reserve_time[0]);
+		g_form.setValue('u_use_end_time', reserve_time[1]);
+	};
+}]]></client_script>
         <controller_as>c</controller_as>
         <css/>
         <data_table>sp_instance</data_table>
@@ -37,65 +42,151 @@
         <public>true</public>
         <roles/>
         <script><![CDATA[(function() {
+	var slots   = [],
+			days    = [];
 	
-	
-	var slots = [];
 	// 更新前処理
-	if(!input) {
-		//data.facility = "";
-		/*slots.push({
-			id: "addfadsf",
-			start: "10:00",
-			end: "11:00",
-			is_available: 'true'
-		});
-		data.slots = slots;*/
+	if ( !input ) {
+		
 	}
 	
 	// 更新後処理
-	if(input) {
-		slots.push({
-			id: "addfadsf",
-			start: "12:00",
-			end: "13:00",
-			is_available: 'true'
-		});
-		data.slots = slots;
-		//gs.addInfoMessage(input.facility)
-	}
-})();
+	if ( input ) {
+		var g_facility      = getRecordBySysId("x_1300226_smpsalon_samplefacilitymodel", input.facility),
+				SLOT_START_HOUR = timeToDecimalHours(g_facility.u_available_start_time.getDisplayValue()),
+				SLOT_END_HOUR   = timeToDecimalHours(g_facility.u_available_end_time.getDisplayValue()),
+				SLOT_INTERVAL   = timeToDecimalHours(g_facility.u_billing_hour_unit.getDisplayValue()),
+				SLOT_COUNT      = SLOT_END_HOUR - SLOT_START_HOUR,
+				DAYS_TO_SHOW    = 7;
 
-]]></script>
+		// スロットラベル作成
+		var dateList = [],
+				today    = new Date(),
+				addDate  = 1;
+
+		var gdt = new GlideDateTime(today + " 00:00:00");
+		for ( var i=0; i<DAYS_TO_SHOW; i++ ) {
+			var gd = new GlideDateTime(gdt);
+			gd.addDaysLocalTime(i);
+			dateList.push(gd.getDate().getDisplayValue()); // '2025-05-01' 形式
+		}
+
+		// 予約データ取得
+		var reservations = {};
+		var gr = new GlideRecord('x_1300226_smpsalon_samplereservationmanagement');
+		gr.addQuery('u_use_date', '>=', dateList[0]);
+		gr.addQuery('u_use_date', '<=', dateList[dateList.length - 1]);
+		gr.query();
+
+		while ( gr.next() ) {
+			var date      = gr.u_use_date.getDisplayValue();
+			var startTime = gr.u_use_start_time.getDisplayValue();
+			var endTime   = gr.u_use_end_time.getDisplayValue();
+
+			if ( !reservations[date] ) reservations[date] = [];
+
+			// 予約範囲を小数時間に変換
+			var s = timeToDecimal(startTime); // 例: "11:00:00" → 11
+			var e = timeToDecimal(endTime);   // 例: "12:00:00" → 12
+
+			reservations[date].push({ start: s, end: e });
+		}
+
+		
+		// タイムスロット表を作成
+		for ( var i=0; i<SLOT_COUNT; i++ ) {
+			var slotStart = SLOT_START_HOUR + i;
+			var slotEnd   = slotStart + 1;
+			var row       = {
+												label: slotStart + ":00" + "～" + slotEnd + ":00",
+												availability: []
+											};
+			
+			for ( var d=0; d<DAYS_TO_SHOW; d++ ) {
+				var day             = dateList[d];
+				var isReserved      = false;
+				var dayReservations = reservations[day] || [];
+				
+				for ( var r=0; r<dayReservations.length; r++ ) {
+					var res = dayReservations[r];
+					
+					if ( (slotStart < res.end) && (slotEnd > res.start) ) {
+						isReserved = true;
+						break;
+					}
+				}
+				row.availability.push(isReserved ? '×' : '○');
+
+			}
+			slots.push(row);
+			
+		}
+		data.slots    = slots;
+		data.dateList = dateList;
+	}
+	
+	// 時間文字列 → 小数時間変換
+	function timeToDecimal(timeStr) {
+		var parts = timeStr.split(':');
+		return parseInt(parts[0], 10) + parseInt(parts[1], 10) / 60;
+	}
+	
+	// SysIDベースでレコード取得
+	function getRecordBySysId(target_table, target_id) {
+		var g_table = new GlideRecord(target_table);
+		g_table.addQuery('sys_id', target_id);
+		g_table.query();
+
+		if ( g_table.next() ) {
+			return g_table;
+		}
+	}
+	
+	// 時間を少数に変換
+	function timeToDecimalHours(times) {
+		var parts   = times.split(':');
+		var hours   = parseInt(parts[0], 10);
+		var minutes = parseInt(parts[1], 10);
+		var seconds = parseInt(parts[2], 10);
+
+		var decimal = hours + (minutes/60) + (seconds/ 3600);
+		return decimal;
+	}
+})();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>hattori</sys_created_by>
         <sys_created_on>2025-05-29 05:00:41</sys_created_on>
         <sys_id>d582a3ed837166104ed86f80ceaad360</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>163</sys_mod_count>
         <sys_name>test</sys_name>
         <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
         <sys_update_name>sp_widget_d582a3ed837166104ed86f80ceaad360</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-05-29 10:28:33</sys_updated_on>
-        <template><![CDATA[<table class="table table-bordered">
+        <sys_updated_on>2025-05-30 07:46:12</sys_updated_on>
+        <template><![CDATA[<p>予約情報</p>
+<table class="table table-bordered">
+  <!--<pre>{{data|json}}</pre>-->
   <thead>
-    <tr><th>時間帯</th><th>空き状況</th></tr>
+    <tr>
+      <th>利用時間帯</th>
+      <th ng-repeat="date in data.dateList">{{ date | date:'M/d' }}</th>
+    </tr>
   </thead>
+  
   <tbody>
-    <tr ng-repeat="slot in data.slots">
-      <td>{{slot.start}} ～ {{slot.end}}</td>
-      <td>
-        <button class="btn btn-success"
-                ng-click="selectSlot(slot)"
-                ng-disabled="!slot.is_available">
-          {{ slot.is_available ? '予約する' : '×' }}
-        </button>
+    <tr ng-repeat="row in data.slots track by $index" ng-init="time_index = $index">
+     <td>{{ row.label }}</td>
+      
+      <td ng-repeat="status in row.availability track by $index" style="text-align: center;">
+        <button class="btn btn-success" ng-click="selectSlot(time_index, $index)" ng-disabled="status == '×'">{{ status }}</button>
       </td>
     </tr>
   </tbody>
 </table>
+
 ]]></template>
     </sp_widget>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

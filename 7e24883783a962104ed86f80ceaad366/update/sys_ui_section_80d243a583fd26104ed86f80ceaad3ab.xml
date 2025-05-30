@@ -98,6 +98,48 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_available_start_time</element>
+            <position>7</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-30 00:33:08</sys_created_on>
+            <sys_id>a3ee6b3d83b5a6104ed86f80ceaad35c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Facility" display_value="Facility" name="x_1300226_smpsalon_samplefacilitymodel" sys_domain="global" view="Default view">80d243a583fd26104ed86f80ceaad3ab</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-30 00:33:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_available_end_time</element>
+            <position>8</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-30 00:33:08</sys_created_on>
+            <sys_id>e7ee6b3d83b5a6104ed86f80ceaad367</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Facility" display_value="Facility" name="x_1300226_smpsalon_samplefacilitymodel" sys_domain="global" view="Default view">80d243a583fd26104ed86f80ceaad3ab</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-30 00:33:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_billing_hour_unit</element>
+            <position>9</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-30 01:03:37</sys_created_on>
+            <sys_id>cae5fff1833122104ed86f80ceaad37a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Facility" display_value="Facility" name="x_1300226_smpsalon_samplefacilitymodel" sys_domain="global" view="Default view">80d243a583fd26104ed86f80ceaad3ab</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-30 01:03:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Facility</caption>
             <header>false</header>

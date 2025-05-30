@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_available_start_time" label="利用可能開始時間" language="en" table="x_1300226_smpsalon_samplefacilitymodel">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_available_start_time</element>
+            <help/>
+            <hint/>
+            <label>利用可能開始時間</label>
+            <language>en</language>
+            <name>x_1300226_smpsalon_samplefacilitymodel</name>
+            <plural>利用可能開始時間s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-30 00:33:09</sys_created_on>
+            <sys_id>6bee6b3d83b5a6104ed86f80ceaad36f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>利用可能開始時間</sys_name>
+            <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+            <sys_update_name>sys_documentation_x_1300226_smpsalon_samplefacilitymodel_u_available_start_time_en</sys_update_name>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-30 00:33:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

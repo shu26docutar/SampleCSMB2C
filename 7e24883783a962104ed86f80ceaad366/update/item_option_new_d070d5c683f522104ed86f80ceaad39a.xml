@@ -42,15 +42,15 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>facility_info</name>
+        <name>formatter</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>500</order>
+        <order>1310</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>施設情報</question_text>
-        <read_only>true</read_only>
+        <question_text/>
+        <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
@@ -77,20 +77,20 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>hattori</sys_created_by>
-        <sys_created_on>2025-05-29 02:39:35</sys_created_on>
-        <sys_id>95028b6183fd26104ed86f80ceaad372</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>施設情報</sys_name>
+        <sys_created_on>2025-05-30 07:39:31</sys_created_on>
+        <sys_id>d070d5c683f522104ed86f80ceaad39a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>formatter</sys_name>
         <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
-        <sys_update_name>item_option_new_95028b6183fd26104ed86f80ceaad372</sys_update_name>
+        <sys_update_name>item_option_new_d070d5c683f522104ed86f80ceaad39a</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-05-30 07:49:30</sys_updated_on>
+        <sys_updated_on>2025-05-30 07:44:28</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>23</type>
+        <type>20</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=95028b6183fd26104ed86f80ceaad372"/>
-    <fx_price action="delete_multiple" query="id=95028b6183fd26104ed86f80ceaad372"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d070d5c683f522104ed86f80ceaad39a"/>
+    <fx_price action="delete_multiple" query="id=d070d5c683f522104ed86f80ceaad39a"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>95028b6183fd26104ed86f80ceaad372</id>
+        <id>d070d5c683f522104ed86f80ceaad39a</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>hattori</sys_created_by>
-        <sys_created_on>2025-05-29 02:39:35</sys_created_on>
-        <sys_id>ce42076583fd26104ed86f80ceaad3b3</sys_id>
+        <sys_created_on>2025-05-30 07:39:31</sys_created_on>
+        <sys_id>a98099c683f522104ed86f80ceaad315</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-05-29 02:39:35</sys_updated_on>
+        <sys_updated_on>2025-05-30 07:39:31</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>95028b6183fd26104ed86f80ceaad372</id>
+        <id>d070d5c683f522104ed86f80ceaad39a</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>hattori</sys_created_by>
-        <sys_created_on>2025-05-29 02:39:35</sys_created_on>
-        <sys_id>8642076583fd26104ed86f80ceaad3b3</sys_id>
+        <sys_created_on>2025-05-30 07:39:31</sys_created_on>
+        <sys_id>618099c683f522104ed86f80ceaad315</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-05-29 02:39:35</sys_updated_on>
+        <sys_updated_on>2025-05-30 07:39:31</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

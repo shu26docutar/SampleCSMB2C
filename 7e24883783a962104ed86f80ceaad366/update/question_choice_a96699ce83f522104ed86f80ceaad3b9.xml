@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="性別">57a5194e83f522104ed86f80ceaad35d</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-30 08:05:26</sys_created_on>
+        <sys_id>a96699ce83f522104ed86f80ceaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>回答しない</sys_name>
+        <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>question_choice_a96699ce83f522104ed86f80ceaad3b9</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-30 08:05:26</sys_updated_on>
+        <text>回答しない</text>
+        <value>nothing</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=a96699ce83f522104ed86f80ceaad3b9"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>a96699ce83f522104ed86f80ceaad3b9</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-30 08:05:26</sys_created_on>
+        <sys_id>c97699ce83f522104ed86f80ceaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-30 08:05:26</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>a96699ce83f522104ed86f80ceaad3b9</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-30 08:05:26</sys_created_on>
+        <sys_id>817699ce83f522104ed86f80ceaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-30 08:05:26</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

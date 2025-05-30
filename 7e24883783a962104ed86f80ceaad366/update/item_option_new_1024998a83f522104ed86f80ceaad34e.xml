@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="施設利用予約_sc_cat_item_producer">3bccee9d8379e2104ed86f80ceaad3be</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -38,25 +38,25 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>facility_info</name>
+        <name>companion_name</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>500</order>
+        <order>100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>施設情報</question_text>
-        <read_only>true</read_only>
+        <question_text>氏名</question_text>
+        <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_1300226_smpsalon_samplereservationmanagement</record_producer_table>
+        <record_producer_table/>
         <reference/>
         <reference_qual/>
         <reference_qual_condition/>
@@ -77,27 +77,27 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>hattori</sys_created_by>
-        <sys_created_on>2025-05-29 02:39:35</sys_created_on>
-        <sys_id>95028b6183fd26104ed86f80ceaad372</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>施設情報</sys_name>
+        <sys_created_on>2025-05-30 07:55:48</sys_created_on>
+        <sys_id>1024998a83f522104ed86f80ceaad34e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>氏名</sys_name>
         <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
-        <sys_update_name>item_option_new_95028b6183fd26104ed86f80ceaad372</sys_update_name>
+        <sys_update_name>item_option_new_1024998a83f522104ed86f80ceaad34e</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-05-30 07:49:30</sys_updated_on>
+        <sys_updated_on>2025-05-30 07:55:48</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>23</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set/>
+        <variable_set display_value="同伴者情報">b27319ca83f522104ed86f80ceaad3fa</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=95028b6183fd26104ed86f80ceaad372"/>
-    <fx_price action="delete_multiple" query="id=95028b6183fd26104ed86f80ceaad372"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1024998a83f522104ed86f80ceaad34e"/>
+    <fx_price action="delete_multiple" query="id=1024998a83f522104ed86f80ceaad34e"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>95028b6183fd26104ed86f80ceaad372</id>
+        <id>1024998a83f522104ed86f80ceaad34e</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>hattori</sys_created_by>
-        <sys_created_on>2025-05-29 02:39:35</sys_created_on>
-        <sys_id>ce42076583fd26104ed86f80ceaad3b3</sys_id>
+        <sys_created_on>2025-05-30 07:55:48</sys_created_on>
+        <sys_id>4c44590e83f522104ed86f80ceaad338</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-05-29 02:39:35</sys_updated_on>
+        <sys_updated_on>2025-05-30 07:55:48</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>95028b6183fd26104ed86f80ceaad372</id>
+        <id>1024998a83f522104ed86f80ceaad34e</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>hattori</sys_created_by>
-        <sys_created_on>2025-05-29 02:39:35</sys_created_on>
-        <sys_id>8642076583fd26104ed86f80ceaad3b3</sys_id>
+        <sys_created_on>2025-05-30 07:55:48</sys_created_on>
+        <sys_id>0444590e83f522104ed86f80ceaad338</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-05-29 02:39:35</sys_updated_on>
+        <sys_updated_on>2025-05-30 07:55:48</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
