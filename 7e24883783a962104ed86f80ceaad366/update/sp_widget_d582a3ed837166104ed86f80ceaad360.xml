@@ -49,6 +49,16 @@
 	if ( !input ) {
 		
 	}
+	/*
+	現状の課題：
+	・タイムスロット表に色を付けたい
+	・施設テーブルに休暇日を用意して、休暇日の曜日の項目の背景色をグレーにして、ボタンを非活性にしたい
+	・複数選択できるようにしたい
+	・データ検索がうまくいっていない部分がある
+	・施設データの予約時間を設定しても時間がうまく計算できていない
+	・タイムスロット表が画面に応じて変動するようにしたい
+	・現状タイムスロット表が申請画面をはみ出している、携帯のサイズになると見にくくなる
+	*/
 	
 	// 更新後処理
 	if ( input ) {
@@ -158,14 +168,14 @@
         <sys_created_by>hattori</sys_created_by>
         <sys_created_on>2025-05-29 05:00:41</sys_created_on>
         <sys_id>d582a3ed837166104ed86f80ceaad360</sys_id>
-        <sys_mod_count>163</sys_mod_count>
+        <sys_mod_count>164</sys_mod_count>
         <sys_name>test</sys_name>
         <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
         <sys_update_name>sp_widget_d582a3ed837166104ed86f80ceaad360</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-05-30 07:46:12</sys_updated_on>
+        <sys_updated_on>2025-05-31 07:47:54</sys_updated_on>
         <template><![CDATA[<p>予約情報</p>
 <table class="table table-bordered">
   <!--<pre>{{data|json}}</pre>-->
