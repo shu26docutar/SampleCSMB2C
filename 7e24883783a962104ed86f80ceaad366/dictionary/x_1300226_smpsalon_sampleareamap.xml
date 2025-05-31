@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8347766183bd26104ed86f80ceaad322" label="SampleAreaMap" max_length="40" name="x_1300226_smpsalon_sampleareamap" type="collection">
+        <element label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
+        <element label="Location" max_length="32" name="u_location" reference="cmn_location" type="reference"/>
+        <index name="index">
+            <element name="u_location"/>
+        </index>
+        <index name="index2">
+            <element name="u_user"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8eeb362d83bd26104ed86f80ceaad376" extends="cmdb_facility_product_model" label="SampleFacilityModel" max_length="40" name="x_1300226_smpsalon_samplefacilitymodel" type="collection">
+        <element label="予約時間枠" max_length="40" name="u_billing_hour_unit" type="glide_time"/>
+        <element label="利用可能終了時間" max_length="40" name="u_available_end_time" type="glide_time"/>
+        <element label="請求時間単位" max_length="40" name="u_available_time" type="integer"/>
+        <element label="利用可能開始時間" max_length="40" name="u_available_start_time" type="glide_time"/>
+        <element label="location" max_length="32" name="u_location" reference="cmn_location" type="reference"/>
+        <index name="index">
+            <element name="u_location"/>
+        </index>
+    </element>
+</database>

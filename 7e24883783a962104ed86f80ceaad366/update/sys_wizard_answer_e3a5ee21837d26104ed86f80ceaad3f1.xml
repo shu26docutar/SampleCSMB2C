@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Sample Facility Model</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Sample Facility Model</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Model" name="Model">c39a444147622100158b949b6c9a71de</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-29 00:34:37</sys_created_on>
+        <sys_id>e3a5ee21837d26104ed86f80ceaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sample Facility Model</sys_name>
+        <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>sys_wizard_answer_e3a5ee21837d26104ed86f80ceaad3f1</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-29 00:34:37</sys_updated_on>
+        <table/>
+        <target_url>x_1300226_smpsalon_sample_facility_model.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

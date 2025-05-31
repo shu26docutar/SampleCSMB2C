@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="a601b25183b9e2104ed86f80ceaad30b" sys_domain="global" table="x_1300226_smpsalon_test_facility" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-28 06:45:46</sys_created_on>
+            <sys_id>aa01b25183b9e2104ed86f80ceaad30c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_test_facility" sys_domain="global" view="Default view">a601b25183b9e2104ed86f80ceaad30b</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-28 06:45:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_tag</element>
+            <position>1</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-28 06:45:46</sys_created_on>
+            <sys_id>2a01b25183b9e2104ed86f80ceaad30d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_test_facility" sys_domain="global" view="Default view">a601b25183b9e2104ed86f80ceaad30b</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-28 06:45:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>2</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-28 06:45:46</sys_created_on>
+            <sys_id>2201b25183b9e2104ed86f80ceaad30e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_test_facility" sys_domain="global" view="Default view">a601b25183b9e2104ed86f80ceaad30b</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-28 06:45:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>3</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-28 06:45:46</sys_created_on>
+            <sys_id>2a01b25183b9e2104ed86f80ceaad30e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_test_facility" sys_domain="global" view="Default view">a601b25183b9e2104ed86f80ceaad30b</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-28 06:45:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fault_count</element>
+            <position>4</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-28 06:45:46</sys_created_on>
+            <sys_id>2201b25183b9e2104ed86f80ceaad30f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_test_facility" sys_domain="global" view="Default view">a601b25183b9e2104ed86f80ceaad30b</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-28 06:45:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_date</element>
+            <position>5</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-28 06:45:46</sys_created_on>
+            <sys_id>2a01b25183b9e2104ed86f80ceaad30f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_test_facility" sys_domain="global" view="Default view">a601b25183b9e2104ed86f80ceaad30b</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-28 06:45:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_status</element>
+            <position>6</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-28 06:45:46</sys_created_on>
+            <sys_id>2201b25183b9e2104ed86f80ceaad310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_test_facility" sys_domain="global" view="Default view">a601b25183b9e2104ed86f80ceaad30b</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-28 06:45:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>true</header>
+            <name>x_1300226_smpsalon_test_facility</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-05-28 06:45:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a601b25183b9e2104ed86f80ceaad30b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1300226_smpsalon_test_facility</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+            <sys_update_name>sys_ui_section_a601b25183b9e2104ed86f80ceaad30b</sys_update_name>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-05-28 06:45:46</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

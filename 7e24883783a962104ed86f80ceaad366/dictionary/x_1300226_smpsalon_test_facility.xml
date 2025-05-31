@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="20b0761583b9e2104ed86f80ceaad371" extends="cmdb_ci" label="test facility" max_length="40" name="x_1300226_smpsalon_test_facility" type="collection"/>
+</database>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="施設利用予約">2d7b225d8379e2104ed86f80ceaad377</sc_cat_item>
+        <sc_catalog display_value=" FacilityUseHome">191b2a998379e2104ed86f80ceaad3b4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-28 06:21:59</sys_created_on>
+        <sys_id>ce9ba25d8379e2104ed86f80ceaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> FacilityUseHome.施設利用予約</sys_name>
+        <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_ce9ba25d8379e2104ed86f80ceaad3c9</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-28 06:21:59</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</application>
+        <file_path/>
+        <instance_id>81a646f1db36b550ae4c9027c59619e9</instance_id>
+        <instance_name>dev228859</instance_name>
+        <name>sc_cat_item_catalog_ce9ba25d8379e2104ed86f80ceaad3c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="施設利用予約">2d7b225d8379e2104ed86f80ceaad377</sc_cat_item><sc_catalog display_value=" FacilityUseHome">191b2a998379e2104ed86f80ceaad3b4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>hattori</sys_created_by><sys_created_on>2025-05-28 06:21:59</sys_created_on><sys_id>ce9ba25d8379e2104ed86f80ceaad3c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name> FacilityUseHome.施設利用予約</sys_name><sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package><sys_policy/><sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope><sys_update_name>sc_cat_item_catalog_ce9ba25d8379e2104ed86f80ceaad3c9</sys_update_name><sys_updated_by>hattori</sys_updated_by><sys_updated_on>2025-05-28 06:21:59</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1427659134</payload_hash>
+        <record_name> FacilityUseHome.施設利用予約</record_name>
+        <reverted_from/>
+        <source>3224883783a962104ed86f80ceaad36c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-28 06:22:00</sys_created_on>
+        <sys_id>9a9ba25d8379e2104ed86f80ceaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197158e0bcd0000001</sys_recorded_at>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-28 06:22:00</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>9e9ba25dc279e21007ee674d028d38cc</update_guid>
+        <update_guid_history>9e9ba25dc279e21007ee674d028d38cc:1427659134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=" FacilityUseHome.施設利用予約">c0ebe65d8379e2104ed86f80ceaad3ce</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-28 06:23:13</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>1c20ed86deca4610a3fd17469db29c40</sys_id>
+        <sys_metadata>ce9ba25d8379e2104ed86f80ceaad3c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> FacilityUseHome.施設利用予約</sys_name>
+        <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_parent display_value="">2d7b225d8379e2104ed86f80ceaad377</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_scope_delete display_value="">16e2b19b336f489885f63d15c6deeb24</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_ce9ba25d8379e2104ed86f80ceaad3c9</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_ce9ba25d8379e2104ed86f80ceaad3c9">9a9ba25d8379e2104ed86f80ceaad3cd</sys_update_version>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-28 06:23:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

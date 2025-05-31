@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f4252621837d26104ed86f80ceaad341" extends="cmdb_facility_product_model" label="Sample Facility Model" max_length="40" name="x_1300226_smpsalon_sample_facility_model" type="collection">
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

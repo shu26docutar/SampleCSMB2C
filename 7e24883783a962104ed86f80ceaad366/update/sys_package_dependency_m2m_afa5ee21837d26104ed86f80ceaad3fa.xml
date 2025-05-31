@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Model Management" source="com.snc.model">4d7b4eff782022104f3459503ff42ac9</dependency>
+        <min_version>1.0</min_version>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-29 00:34:37</sys_created_on>
+        <sys_id>afa5ee21837d26104ed86f80ceaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-29 00:34:37</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
