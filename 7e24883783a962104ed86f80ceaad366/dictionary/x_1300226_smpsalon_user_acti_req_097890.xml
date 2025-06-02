@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3b20fcc7837922104ed86f80ceaad310" extends="user_activation_request" label="Smpsalon User Acti Req 097890" max_length="40" name="x_1300226_smpsalon_user_acti_req_097890" type="collection"/>
+</database>

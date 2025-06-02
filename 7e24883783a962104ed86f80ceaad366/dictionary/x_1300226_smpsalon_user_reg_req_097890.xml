@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="eb20bcc7837922104ed86f80ceaad3c5" extends="sys_user_registration_request" label="Smpsalon User Reg Req 097890" max_length="40" name="x_1300226_smpsalon_user_reg_req_097890" type="collection"/>
+</database>

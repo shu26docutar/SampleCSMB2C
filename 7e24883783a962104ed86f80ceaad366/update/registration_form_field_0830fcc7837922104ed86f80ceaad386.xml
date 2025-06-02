@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="registration_form_field">
+    <registration_form_field action="INSERT_OR_UPDATE">
+        <column_label>City</column_label>
+        <column_name>city</column_name>
+        <custom_field>false</custom_field>
+        <display>true</display>
+        <mandatory>true</mandatory>
+        <order>800</order>
+        <registration_configuration display_value="ユーザー新規登録">81103cc7837922104ed86f80ceaad376</registration_configuration>
+        <sys_class_name>registration_form_field</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-06-02 07:52:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0830fcc7837922104ed86f80ceaad386</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>City</sys_name>
+        <sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration">0caf2c47837922104ed86f80ceaad30a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>registration_form_field_0830fcc7837922104ed86f80ceaad386</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-06-02 09:03:26</sys_updated_on>
+        <type>6</type>
+        <validation_only>false</validation_only>
+    </registration_form_field>
+</record_update>

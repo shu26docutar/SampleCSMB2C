@@ -27,3 +27,4 @@ If you find yourself unable to import your repository due to the presence of fil
    * Configuration Management (CMDB)
    * Model Management
    * Task table schema
+   * External User Self-Registration
