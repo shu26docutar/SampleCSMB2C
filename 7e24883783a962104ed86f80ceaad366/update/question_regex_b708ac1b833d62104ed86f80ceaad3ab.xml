@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_regex">
+    <question_regex action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Check Post Number</name>
+        <regex>^\d{7}$</regex>
+        <regex_flag/>
+        <sys_class_name>question_regex</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-06-03 01:56:38</sys_created_on>
+        <sys_id>b708ac1b833d62104ed86f80ceaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check Post Number</sys_name>
+        <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>question_regex_b708ac1b833d62104ed86f80ceaad3ab</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-06-03 01:56:38</sys_updated_on>
+        <validation_message>ハイフンは入力せず、半角数字7文字で入力してください。</validation_message>
+    </question_regex>
+    <sys_translated_text action="delete_multiple" query="documentkey=b708ac1b833d62104ed86f80ceaad3ab"/>
+</record_update>

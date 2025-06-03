@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category display_value="施設利用">f06b6e1d8379e2104ed86f80ceaad308</sc_category>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">cd5deadd8379e2104ed86f80ceaad33e</sp_column>
+        <sp_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-28 06:29:36</sys_created_on>
+        <sys_id>f15d6e9d8379e2104ed86f80ceaad35e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>予約</sys_name>
+        <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>sp_instance_link_f15d6e9d8379e2104ed86f80ceaad35e</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-28 06:31:20</sys_updated_on>
+        <title>予約</title>
+        <type>sc_category</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=f15d6e9d8379e2104ed86f80ceaad35e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</application>
+        <file_path/>
+        <instance_id>81a646f1db36b550ae4c9027c59619e9</instance_id>
+        <instance_name>dev228859</instance_name>
+        <name>sp_instance_link_f15d6e9d8379e2104ed86f80ceaad35e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category display_value="施設利用"&gt;f06b6e1d8379e2104ed86f80ceaad308&lt;/sc_category&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;cd5deadd8379e2104ed86f80ceaad33e&lt;/sp_column&gt;&lt;sp_page display_value="sc_category"&gt;07261a2147132100ba13a5554ee49092&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;hattori&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-28 06:29:36&lt;/sys_created_on&gt;&lt;sys_id&gt;f15d6e9d8379e2104ed86f80ceaad35e&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;予約&lt;/sys_name&gt;&lt;sys_package display_value="Sample Salon" source="x_1300226_smpsalon"&gt;7e24883783a962104ed86f80ceaad366&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sample Salon"&gt;7e24883783a962104ed86f80ceaad366&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_f15d6e9d8379e2104ed86f80ceaad35e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;hattori&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-28 06:31:20&lt;/sys_updated_on&gt;&lt;title&gt;予約&lt;/title&gt;&lt;type&gt;sc_category&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f15d6e9d8379e2104ed86f80ceaad35e"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>944596729</payload_hash>
+        <record_name>予約</record_name>
+        <reverted_from/>
+        <source>3224883783a962104ed86f80ceaad36c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-05-28 06:31:20</sys_created_on>
+        <sys_id>07bd261183b9e2104ed86f80ceaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197159697740000001</sys_recorded_at>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-05-28 06:31:20</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>cbbd2611bfb9e210ecbb3f678c08b790</update_guid>
+        <update_guid_history>cbbd2611bfb9e210ecbb3f678c08b790:944596729,a19d221141b9e21065fce742ac7b88ef:-201552051,395d6e9d7479e210ffd93ec164aab060:978426978</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="予約">1b96b05f837d62104ed86f80ceaad30c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-06-03 02:58:44</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>438230be28bc431ab9c4c77aa5850971</sys_id>
+        <sys_metadata>f15d6e9d8379e2104ed86f80ceaad35e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>予約</sys_name>
+        <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_scope_delete display_value="">16e2b19b336f489885f63d15c6deeb24</sys_scope_delete>
+        <sys_update_name>sp_instance_link_f15d6e9d8379e2104ed86f80ceaad35e</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_f15d6e9d8379e2104ed86f80ceaad35e">07bd261183b9e2104ed86f80ceaad391</sys_update_version>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-06-03 02:58:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
