@@ -15,7 +15,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Show Facility Information</name>
+        <name>Set Facility Information</name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
@@ -25,26 +25,41 @@
 
 	var infomation;
 
-	/*var facility_name  = newValue.location.city; // 建物名
-	var zip_code       = newValue.location.zip;  // 郵便番号
-	var city           = newValue.location.city; // 市区町村
-	var street         = newValue.location.city; // 番地・建物名・部屋番号
-	var phone_number   = newValue.location.phone; // 電話番号
+	var ajax = new GlideAjax('x_1300226_smpsalon.GetFacilityInformation');
+    ajax.addParam('sysparm_name', 'getFacilityData');
+    ajax.addParam('rec_id', newValue);
+    ajax.getXMLAnswer(function(response) {
+		answer = JSON.parse(response);
+		
+        if (answer.status == "200") {
+            infomation = "<p>建物名：" + answer.data.facility_name + "</p>";
 
-	var available_time = newValue.u_available_time; // 利用可能時間
-	var cost           = newValue.cost; // 利用料金
+			infomation = infomation + "<p>利用可能時間：" + answer.data.start_time + "～" + answer.data.end_time + "</p>";
 
-	infomation = infomation + "建物名：" + facility_name + "\r\n";
-	infomation = infomation + "郵便番号：" + zip_code + "\r\n";
-	infomation = infomation + "住所：" + city + " " + street + "\r\n";
-	infomation = infomation + "電話番号：" + phone_number + "\r\n";
+			infomation = infomation + "<p>" + answer.data.available_time + "時間当たりの利用料金：" + answer.data.cost + "円</p><br>";
 
-	infomation = infomation + available_time + "時間当たりの利用料金：" + cost + "円\r\n";*/
+			infomation = infomation + "<p>所在地</p>";
+			infomation = infomation + "<p>〒" + answer.data.zip_code + "</p>";
+			infomation = infomation + "<p>" + answer.data.city + " " + answer.data.street + "</p><br>";
 
-	infomation = "<p>a</p><br><p>a</p>";
+			infomation = infomation + "<p>連絡先電話番号</p>";
+			infomation = infomation + "<p>" + answer.data.phone_number + "</p><br>";
 
-	g_form.setValue('facility_info', infomation);
+			infomation = infomation + "<p>代表者</p>";
+			infomation = infomation + "<p>" + answer.data.owner + "</p><br>";
 
+			infomation = infomation + "<p>注意事項並びに説明</p>";
+			infomation = infomation + "<p>" + answer.data.description + "</p>";
+			infomation = infomation + "</div>";
+
+			infomation = "<div style='padding: 10px;background-color: #f5f5f5; border: 1px solid #ccc: border-radius:4px;'>" + infomation + "</div>";
+
+			g_form.setValue('facility_info', infomation);
+        }
+		else {
+			alert(answer.errorMsg);
+		}
+    });
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>hattori</sys_created_by>
@@ -52,15 +67,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d2068f72837122104ed86f80ceaad3c5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Show Facility Information</sys_name>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Set Facility Information</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
         <sys_update_name>catalog_script_client_d2068f72837122104ed86f80ceaad3c5</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-06-02 00:08:23</sys_updated_on>
+        <sys_updated_on>2025-06-03 08:53:44</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
@@ -68,4 +83,15 @@
         <variable_set/>
         <view/>
     </catalog_script_client>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>d2068f72837122104ed86f80ceaad3c5</id>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-06-03 07:39:33</sys_created_on>
+        <sys_id>70e6fd9f83b1a2104ed86f80ceaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-06-03 07:39:33</sys_updated_on>
+        <table>catalog_script_client</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
