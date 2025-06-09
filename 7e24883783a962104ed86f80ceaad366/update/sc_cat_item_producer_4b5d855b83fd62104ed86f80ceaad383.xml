@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category/>
+        <category display_value="お問い合わせ">0626c995830a22104ed86f80ceaad348</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -32,7 +32,7 @@
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>お問い合わせ</name>
-        <no_attachment_v2>false</no_attachment_v2>
+        <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
@@ -89,14 +89,14 @@
         <sys_created_by>hattori</sys_created_by>
         <sys_created_on>2025-06-03 04:38:45</sys_created_on>
         <sys_id>4b5d855b83fd62104ed86f80ceaad383</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>お問い合わせ</sys_name>
         <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
         <sys_policy/>
         <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
         <sys_update_name>sc_cat_item_producer_4b5d855b83fd62104ed86f80ceaad383</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-06-03 06:05:07</sys_updated_on>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-06-09 09:14:45</sys_updated_on>
         <table_name>sn_customerservice_case</table_name>
         <taxonomy_topic/>
         <template/>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>33</version>
+        <version>35</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
