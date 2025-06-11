@@ -4,41 +4,35 @@
         <client_script><![CDATA[function ($scope, $location, $timeout, spUtil) {
 
   var c = this;
-	
-	// g_formの呼び出し
-	var g_form = $scope.page.g_form;
+	var g_form = $scope.page.g_form; // g_formクラスの呼び出し
 	
 	// OnChange
 	$rootScope.$on("field.change",function(evt, parms) {
-  	if (parms.field.name == "u_use_facility") {
-			var facility = g_form.getValue('u_use_facility');
+		var filed_name = "u_use_facility";
+  	if (parms.field.name == filed_name) {
+			var facility = g_form.getValue(filed_name);
 			
+			// 変更時値がある場合にWdigetを更新
 			if ( facility ) {
 				c.data.facility = facility;
 				c.server.update();
 			}
   	}
   });
-	
-	/*$scope.selectSlot = function(timeIndex, dataIndex) {
-		var reserve_time = $scope.data.slots[timeIndex].label.split("～");
-		
-		g_form.setValue('u_use_date', $scope.data.dateList[dataIndex]);
-		g_form.setValue('u_use_start_time', reserve_time[0]);
-		g_form.setValue('u_use_end_time', reserve_time[1]);
-	};*/
 }]]></client_script>
         <controller_as>c</controller_as>
-        <css>.table_box{
+        <css>.table_box {
   overflow-x: auto;
   width:100%;
   -webkit-overflow-scrolling: touch;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
 }
+
 th, td {
   vertical-align: middle;
   padding: 20px;
@@ -48,12 +42,15 @@ th, td {
   text-align: center;
   white-space: nowrap;
 }
+
 th {
-  background: #ede4e4;
+  background: #1F8476;
 }
+
 td {
   background: #fff;
 }
+
 .sticky {
   position: sticky;
   top: 0;
@@ -62,6 +59,7 @@ td {
   border-left: none;
   border-right: none;
 }
+
 .sticky::before {
   content: "";
   position: absolute;
@@ -71,7 +69,7 @@ td {
   height: 100%;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
-  background: #ede4e4;
+  background: #1F8476;
   z-index: -1;
 }
 </css>
@@ -100,13 +98,7 @@ td {
 	}
 	/*
 	現状の課題：
-	・タイムスロット表に色を付けたい
-	・施設テーブルに休暇日を用意して、休暇日の曜日の項目の背景色をグレーにして、ボタンを非活性にしたい
-	・複数選択できるようにしたい
-	・データ検索がうまくいっていない部分がある
-	・施設データの予約時間を設定しても時間がうまく計算できていない
-	・タイムスロット表が画面に応じて変動するようにしたい
-	・現状タイムスロット表が申請画面をはみ出している、携帯のサイズになると見にくくなる
+	・日付がに英語圏の日付で計算しているので、時間がづれる
 	*/
 	
 	// 更新後処理
@@ -115,7 +107,7 @@ td {
 				SLOT_START_HOUR = timeToDecimalHours(g_facility.u_available_start_time.getDisplayValue()),
 				SLOT_END_HOUR   = timeToDecimalHours(g_facility.u_available_end_time.getDisplayValue()),
 				SLOT_INTERVAL   = timeToDecimalHours(g_facility.u_billing_hour_unit.getDisplayValue()),
-				SLOT_COUNT      = SLOT_END_HOUR - SLOT_START_HOUR,
+				SLOT_COUNT      = (SLOT_END_HOUR - SLOT_START_HOUR) / SLOT_INTERVAL,
 				DAYS_TO_SHOW    = 7;
 
 		// スロットラベル作成
@@ -154,10 +146,10 @@ td {
 		
 		// タイムスロット表を作成
 		for ( var i=0; i<SLOT_COUNT; i++ ) {
-			var slotStart = SLOT_START_HOUR + i;
-			var slotEnd   = slotStart + 1;
+			var slotStart = i != 0 ? slotEnd :SLOT_START_HOUR + i;
+			var slotEnd   = slotStart + SLOT_INTERVAL;
 			var row       = {
-												label: slotStart + ":00" + "～" + slotEnd + ":00",
+												label: formatTime(slotStart) + "～" + formatTime(slotEnd),
 												availability: []
 											};
 			
@@ -182,6 +174,13 @@ td {
 		}
 		data.slots    = slots;
 		data.dateList = dateList;
+	}
+	
+	// 数値⇒h:mm変換
+	function formatTime(time) { 
+		var h = Math.floor(time);
+		var m = Math.round((time - h) * 60);
+		return h + ':' + m.toString().padStart(2, '0');
 	}
 	
 	// 時間文字列 → 小数時間変換
@@ -217,14 +216,14 @@ td {
         <sys_created_by>hattori</sys_created_by>
         <sys_created_on>2025-06-09 07:41:12</sys_created_on>
         <sys_id>a3c07499838622104ed86f80ceaad30c</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Reserve Info</sys_name>
         <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
         <sys_policy/>
         <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
         <sys_update_name>sp_widget_a3c07499838622104ed86f80ceaad30c</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-06-09 09:09:27</sys_updated_on>
+        <sys_updated_on>2025-06-10 01:14:50</sys_updated_on>
         <template><![CDATA[<p>予約情報</p>
 <div class="table_box">
   <table class="table table-bordered">
@@ -240,8 +239,8 @@ td {
       <tr ng-repeat="row in data.slots track by $index" ng-init="time_index = $index">
        <td class="sticky" >{{ row.label }}</td>
 
-        <td ng-repeat="status in row.availability track by $index" style="text-align: center;">
-          <button class="btn btn-success" ng-click="selectSlot(time_index, $index)" ng-disabled="status == '×'">{{ status }}</button>
+        <td ng-repeat="status in row.availability track by $index" style="text-align: center; font-size:25px;">
+          {{ status }}
         </td>
       </tr>
     </tbody>

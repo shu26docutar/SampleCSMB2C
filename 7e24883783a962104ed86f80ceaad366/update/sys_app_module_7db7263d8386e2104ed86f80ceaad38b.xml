@@ -8,36 +8,36 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>DIRECT</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>電話予約登録</mobile_title>
+        <mobile_title>すべての問い合わせ</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
-        <order>310</order>
+        <name>sn_customerservice_case</name>
+        <order>430</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>https://dev228859.service-now.com/facility?id=sc_cat_item&amp;sys_id=5106c37e833122104ed86f80ceaad363&amp;sysparm_category=f06b6e1d8379e2104ed86f80ceaad308</query>
+        <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>hattori</sys_created_by>
-        <sys_created_on>2025-06-02 06:05:17</sys_created_on>
+        <sys_created_on>2025-06-11 05:38:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4d17184783f522104ed86f80ceaad304</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>予約情報の登録</sys_name>
+        <sys_id>7db7263d8386e2104ed86f80ceaad38b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>すべての問い合わせ</sys_name>
         <sys_overrides/>
         <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
         <sys_policy/>
         <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
-        <sys_update_name>sys_app_module_4d17184783f522104ed86f80ceaad304</sys_update_name>
+        <sys_update_name>sys_app_module_7db7263d8386e2104ed86f80ceaad38b</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-06-11 05:29:20</sys_updated_on>
+        <sys_updated_on>2025-06-11 05:38:26</sys_updated_on>
         <timeline_page/>
-        <title>予約情報の登録</title>
+        <title>すべての問い合わせ</title>
         <uncancelable>false</uncancelable>
-        <view_name/>
+        <view_name>CaseForm</view_name>
         <window_name/>
     </sys_app_module>
 </record_update>

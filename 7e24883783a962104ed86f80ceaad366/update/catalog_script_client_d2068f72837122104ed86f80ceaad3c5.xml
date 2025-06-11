@@ -36,7 +36,7 @@
 
 			infomation = infomation + "<p>利用可能時間：" + answer.data.start_time + "～" + answer.data.end_time + "</p>";
 
-			infomation = infomation + "<p>" + answer.data.available_time + "時間当たりの利用料金：" + answer.data.cost + "円</p><br>";
+			infomation = infomation + "<p>" + answer.data.available_time + "セクションたりの利用料金：" + answer.data.cost + "円</p><br>";
 
 			infomation = infomation + "<p>所在地</p>";
 			infomation = infomation + "<p>〒" + answer.data.zip_code + "</p>";
@@ -67,7 +67,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d2068f72837122104ed86f80ceaad3c5</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Set Facility Information</sys_name>
         <sys_overrides/>
         <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
@@ -75,7 +75,7 @@
         <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
         <sys_update_name>catalog_script_client_d2068f72837122104ed86f80ceaad3c5</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-06-03 08:53:44</sys_updated_on>
+        <sys_updated_on>2025-06-10 01:54:35</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

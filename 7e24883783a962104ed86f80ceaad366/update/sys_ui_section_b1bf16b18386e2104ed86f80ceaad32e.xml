@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="予約情報" section_id="b1bf16b18386e2104ed86f80ceaad32e" sys_domain="global" table="x_1300226_smpsalon_samplereservationmanagement" version="3" view="ReserveForm">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>com_glideapp_questionset_default_question_editor.xml</element>
+            <position>0</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 05:02:46</sys_created_on>
+            <sys_id>42bf16b18386e2104ed86f80ceaad36e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Reserve Verification">c67f9e718386e2104ed86f80ceaad3e5</sys_ui_formatter>
+            <sys_ui_section caption="予約情報" display_value="予約情報" name="x_1300226_smpsalon_samplereservationmanagement" sys_domain="global" view="174d52fd8346e2104ed86f80ceaad36e">b1bf16b18386e2104ed86f80ceaad32e</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 05:02:46</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>予約情報</caption>
+            <header>false</header>
+            <name>x_1300226_smpsalon_samplereservationmanagement</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 05:02:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1bf16b18386e2104ed86f80ceaad32e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1300226_smpsalon_samplereservationmanagement</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
+            <sys_update_name>sys_ui_section_b1bf16b18386e2104ed86f80ceaad32e</sys_update_name>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 05:02:45</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="ReserveForm" name="ReserveForm">174d52fd8346e2104ed86f80ceaad36e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

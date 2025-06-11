@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="7569fe2983bd26104ed86f80ceaad3e2" extends="task" label="SampleReservationManagement" max_length="40" name="x_1300226_smpsalon_samplereservationmanagement" type="collection">
+    <element audit="true" db_object_id="7569fe2983bd26104ed86f80ceaad3e2" extends="task" label="SampleReservationManagement" max_length="40" name="x_1300226_smpsalon_samplereservationmanagement" type="collection">
         <element label="利用開始時間" max_length="40" name="u_use_start_time" type="string"/>
         <element label="利用予定施設" max_length="32" name="u_use_facility" reference="x_1300226_smpsalon_samplefacilitymodel" type="reference"/>
         <element label="利用対象日" max_length="40" name="u_use_date" type="glide_date"/>

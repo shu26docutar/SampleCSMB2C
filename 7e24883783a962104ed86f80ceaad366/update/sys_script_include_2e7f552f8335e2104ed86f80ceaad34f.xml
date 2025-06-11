@@ -23,7 +23,7 @@ CheckReservationTime.prototype = Object.extendsObject(global.AbstractAjaxProcess
 		var g_table = new GlideRecord('x_1300226_smpsalon_samplereservationmanagement');
 		g_table.addQuery('u_use_facility', facilitys);
 		g_table.addQuery('state', '!=', 400);
-		g_table.addEncodedQuery( "u_use_dateON" + use_date);
+		g_table.addEncodedQuery( "u_use_date=" + use_date);
 		g_table.addEncodedQuery( "u_use_end_time>" + start_time + "^u_use_start_time<" + end_time );
 
 		g_table.query();
@@ -41,14 +41,14 @@ CheckReservationTime.prototype = Object.extendsObject(global.AbstractAjaxProcess
         <sys_created_by>hattori</sys_created_by>
         <sys_created_on>2025-06-04 00:36:10</sys_created_on>
         <sys_id>2e7f552f8335e2104ed86f80ceaad34f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>CheckReservationTime</sys_name>
         <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
         <sys_update_name>sys_script_include_2e7f552f8335e2104ed86f80ceaad34f</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-06-05 05:59:22</sys_updated_on>
+        <sys_updated_on>2025-06-10 01:50:01</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>2e7f552f8335e2104ed86f80ceaad34f</id>

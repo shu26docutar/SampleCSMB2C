@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="d34d52fd8346e2104ed86f80ceaad375" sys_domain="global" table="x_1300226_smpsalon_samplereservationmanagement" version="3" view="ReserveForm">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 04:55:09</sys_created_on>
+            <sys_id>62fddefd8346e2104ed86f80ceaad347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_samplereservationmanagement" sys_domain="global" view="174d52fd8346e2104ed86f80ceaad36e">d34d52fd8346e2104ed86f80ceaad375</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 04:55:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_use_facility</element>
+            <position>1</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 04:55:09</sys_created_on>
+            <sys_id>6afddefd8346e2104ed86f80ceaad347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_samplereservationmanagement" sys_domain="global" view="174d52fd8346e2104ed86f80ceaad36e">d34d52fd8346e2104ed86f80ceaad375</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 04:55:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_use_date</element>
+            <position>2</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 04:55:09</sys_created_on>
+            <sys_id>62fddefd8346e2104ed86f80ceaad348</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_samplereservationmanagement" sys_domain="global" view="174d52fd8346e2104ed86f80ceaad36e">d34d52fd8346e2104ed86f80ceaad375</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 04:55:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 04:55:09</sys_created_on>
+            <sys_id>6afddefd8346e2104ed86f80ceaad348</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_samplereservationmanagement" sys_domain="global" view="174d52fd8346e2104ed86f80ceaad36e">d34d52fd8346e2104ed86f80ceaad375</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 04:55:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>4</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 04:55:09</sys_created_on>
+            <sys_id>62fddefd8346e2104ed86f80ceaad349</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_samplereservationmanagement" sys_domain="global" view="174d52fd8346e2104ed86f80ceaad36e">d34d52fd8346e2104ed86f80ceaad375</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 04:55:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 04:55:09</sys_created_on>
+            <sys_id>6afddefd8346e2104ed86f80ceaad349</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_samplereservationmanagement" sys_domain="global" view="174d52fd8346e2104ed86f80ceaad36e">d34d52fd8346e2104ed86f80ceaad375</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 04:55:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 04:55:09</sys_created_on>
+            <sys_id>62fddefd8346e2104ed86f80ceaad34a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_samplereservationmanagement" sys_domain="global" view="174d52fd8346e2104ed86f80ceaad36e">d34d52fd8346e2104ed86f80ceaad375</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 04:55:09</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_use_start_time</element>
+            <position>7</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 04:55:09</sys_created_on>
+            <sys_id>6afddefd8346e2104ed86f80ceaad34a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_samplereservationmanagement" sys_domain="global" view="174d52fd8346e2104ed86f80ceaad36e">d34d52fd8346e2104ed86f80ceaad375</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 04:55:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_use_end_time</element>
+            <position>8</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 04:55:09</sys_created_on>
+            <sys_id>62fddefd8346e2104ed86f80ceaad34b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1300226_smpsalon_samplereservationmanagement" sys_domain="global" view="174d52fd8346e2104ed86f80ceaad36e">d34d52fd8346e2104ed86f80ceaad375</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 04:55:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1300226_smpsalon_samplereservationmanagement</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 04:52:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d34d52fd8346e2104ed86f80ceaad375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1300226_smpsalon_samplereservationmanagement</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
+            <sys_update_name>sys_ui_section_d34d52fd8346e2104ed86f80ceaad375</sys_update_name>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 04:52:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="ReserveForm" name="ReserveForm">174d52fd8346e2104ed86f80ceaad36e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

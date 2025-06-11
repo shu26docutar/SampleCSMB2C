@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="施設利用サポートサービス">9d07944783f522104ed86f80ceaad30b</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_1300226_smpsalon_samplereservationmanagement">u_use_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^state=200^EQ<item endquery="false" field="u_use_date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+            <item display_value="利用中" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="200"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>利用中予約情報</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1300226_smpsalon_samplereservationmanagement</name>
+        <order>330</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-06-11 05:32:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>86466af58386e2104ed86f80ceaad302</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>利用中予約情報</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>sys_app_module_86466af58386e2104ed86f80ceaad302</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-06-11 06:10:26</sys_updated_on>
+        <timeline_page/>
+        <title>利用中予約情報</title>
+        <uncancelable>false</uncancelable>
+        <view_name>ReserveForm</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

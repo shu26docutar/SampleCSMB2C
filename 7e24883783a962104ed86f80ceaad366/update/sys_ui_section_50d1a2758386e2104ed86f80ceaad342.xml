@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="解決情報" section_id="50d1a2758386e2104ed86f80ceaad342" sys_domain="global" table="sn_customerservice_case" version="3" view="CaseForm">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolution_code</element>
+            <position>0</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 05:11:56</sys_created_on>
+            <sys_id>64d1a2758386e2104ed86f80ceaad368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="解決情報" display_value="解決情報" name="sn_customerservice_case" sys_domain="global" view="9cd162758386e2104ed86f80ceaad3ca">50d1a2758386e2104ed86f80ceaad342</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 05:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolved_at</element>
+            <position>1</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 05:11:56</sys_created_on>
+            <sys_id>6cd1a2758386e2104ed86f80ceaad368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="解決情報" display_value="解決情報" name="sn_customerservice_case" sys_domain="global" view="9cd162758386e2104ed86f80ceaad3ca">50d1a2758386e2104ed86f80ceaad342</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 05:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 05:11:56</sys_created_on>
+            <sys_id>64d1a2758386e2104ed86f80ceaad369</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="解決情報" display_value="解決情報" name="sn_customerservice_case" sys_domain="global" view="9cd162758386e2104ed86f80ceaad3ca">50d1a2758386e2104ed86f80ceaad342</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 05:11:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolved_by</element>
+            <position>3</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 05:11:56</sys_created_on>
+            <sys_id>6cd1a2758386e2104ed86f80ceaad369</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="解決情報" display_value="解決情報" name="sn_customerservice_case" sys_domain="global" view="9cd162758386e2104ed86f80ceaad3ca">50d1a2758386e2104ed86f80ceaad342</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 05:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 05:11:56</sys_created_on>
+            <sys_id>64d1a2758386e2104ed86f80ceaad36a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="解決情報" display_value="解決情報" name="sn_customerservice_case" sys_domain="global" view="9cd162758386e2104ed86f80ceaad3ca">50d1a2758386e2104ed86f80ceaad342</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 05:11:56</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>5</position>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 05:11:56</sys_created_on>
+            <sys_id>6cd1a2758386e2104ed86f80ceaad36a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="解決情報" display_value="解決情報" name="sn_customerservice_case" sys_domain="global" view="9cd162758386e2104ed86f80ceaad3ca">50d1a2758386e2104ed86f80ceaad342</sys_ui_section>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 05:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>解決情報</caption>
+            <header>false</header>
+            <name>sn_customerservice_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-06-11 05:11:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50d1a2758386e2104ed86f80ceaad342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_customerservice_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
+            <sys_update_name>sys_ui_section_50d1a2758386e2104ed86f80ceaad342</sys_update_name>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-06-11 05:11:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="CaseForm" name="CaseForm">9cd162758386e2104ed86f80ceaad3ca</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
