@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="839bb473830622104ed86f80ceaad3f8" label="エリアマップ" max_length="40" name="x_1300226_smpsalon_area_map" type="collection">
+        <element label="ユーザー" max_length="32" name="u_user" reference="sys_user" type="reference"/>
+        <element attributes="tree_picker=true" label="担当エリア" max_length="32" name="u_location" reference="cmn_location" type="reference"/>
+        <index name="index">
+            <element name="u_location"/>
+        </index>
+        <index name="index2">
+            <element name="u_user"/>
+        </index>
+    </element>
+</database>
