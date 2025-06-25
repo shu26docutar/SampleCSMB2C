@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+    /* widget controller */
+    var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Copy of User Activation Success</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	gs.flushMessages();
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-06-25 02:49:03</sys_created_on>
+        <sys_id>04674ed283d222104ed86f80ceaad347</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of User Activation Success</sys_name>
+        <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>sp_widget_04674ed283d222104ed86f80ceaad347</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-06-25 02:52:13</sys_updated_on>
+        <template><![CDATA[<div class= " h4 text-center font-thin"> 
+  ${メールアドレスでの検証が完了しました。}<br>
+  ${ご登録いただいたメールアドレスにアカウント登録情報をお送りいたしました。}<br>
+  ${案内に従いパスワードの登録をお願いします。}
+</div>]]></template>
+    </sp_widget>
+</record_update>

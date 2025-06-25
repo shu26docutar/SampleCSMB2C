@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="Copy of User Activation Success">04674ed283d222104ed86f80ceaad347</child>
+        <cloned>2025-06-25 02:49:03</cloned>
+        <last_validated>2025-06-25 02:49:03</last_validated>
+        <parent display_value="User Activation Success">df6403b1533200102b12ddeeff7b1202</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope) {
+    /* widget controller */
+    var c = this;
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;User Activation Success&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	gs.flushMessages();
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-07 04:40:51&lt;/sys_created_on&gt;&lt;sys_id&gt;df6403b1533200102b12ddeeff7b1202&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;User Activation Success&lt;/sys_name&gt;&lt;sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration"&gt;0caf2c47837922104ed86f80ceaad30a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_df6403b1533200102b12ddeeff7b1202&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-29 07:53:13&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class= " h4 text-center font-thin"&gt; 
+  ${Your email address has been verified.}&lt;br&gt;
+  ${Please check your registered email for further details.}&lt;br&gt;
+  ${Thank you!}
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-06-25 02:49:03</sys_created_on>
+        <sys_id>cc67c21683d222104ed86f80ceaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>04674ed283d222104ed86f80ceaad347</sys_name>
+        <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_cc67c21683d222104ed86f80ceaad3da</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-06-25 02:49:03</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

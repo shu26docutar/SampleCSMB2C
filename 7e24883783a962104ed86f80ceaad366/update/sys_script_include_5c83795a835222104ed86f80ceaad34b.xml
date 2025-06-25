@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1300226_smpsalon.GetUserInformation</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetUserInformation</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GetUserInformation = Class.create();
+GetUserInformation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	isPublic: function(){
+		return true;
+	},
+
+	getRepresentativeInfo: function() {
+		var result  = {state: false};
+		var user_id = this.getParameter('user_id');
+
+		var g_user = new GlideRecord('sys_user');
+		g_user.addQuery('sys_id', user_id);
+		g_user.query();
+
+		if ( g_user.next() ) {
+			result.state = true;
+			result.name  = g_user.name.toString();
+			result.email = g_user.email.toString();
+			result.phone = g_user.mobile_phone.toString();
+			address      = this.getState(g_user.state) + " " + g_user.city + " " + g_user.street;
+			result.address = address;
+		}
+
+		return JSON.stringify(result);
+	},
+
+	getState: function(value) {
+		var g_state = new GlideRecord('question_choice');
+		g_state.addQuery('value='+value);
+		g_state.addQuery('question=dce5fccf837922104ed86f80ceaad357');
+		g_state.query();
+
+		if ( g_state.next() ){
+			return g_state.text.toString();
+		}
+	},
+
+    type: 'GetUserInformation'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-06-25 01:22:52</sys_created_on>
+        <sys_id>5c83795a835222104ed86f80ceaad34b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>GetUserInformation</sys_name>
+        <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>sys_script_include_5c83795a835222104ed86f80ceaad34b</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-06-25 02:29:45</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>5c83795a835222104ed86f80ceaad34b</id>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-06-25 01:22:51</sys_created_on>
+        <sys_id>95a33dd2835222104ed86f80ceaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-06-25 01:22:51</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -2,7 +2,7 @@
     <sys_user_registration_config action="INSERT_OR_UPDATE">
         <activation_error_page display_value="sn_user_activation_error">b8e54fb1533200102b12ddeeff7b1286</activation_error_page>
         <activation_link_expiry_time>24</activation_link_expiry_time>
-        <activation_success_page display_value="sn_user_activation_success">2df447b1533200102b12ddeeff7b12c5</activation_success_page>
+        <activation_success_page display_value="copy_of_sn_user_activation_success">3fd606d283d222104ed86f80ceaad305</activation_success_page>
         <activation_table>x_1300226_smpsalon_user_acti_req_097890</activation_table>
         <active>true</active>
         <description/>
@@ -10,7 +10,7 @@
         <enable_terms>false</enable_terms>
         <internal_name>x_1300226_smpsalon.ユーザー新規登録</internal_name>
         <name>ユーザー新規登録</name>
-        <post_registration_redirect_page display_value="sn_user_post_registration_redirect">61638b31533200102b12ddeeff7b12f5</post_registration_redirect_page>
+        <post_registration_redirect_page display_value="copy_of_sn_user_post_registration_redire">59f606d283d222104ed86f80ceaad327</post_registration_redirect_page>
         <record_producer display_value="ユーザー新規登録">d830fcc7837922104ed86f80ceaad3a9</record_producer>
         <registration_label>Register</registration_label>
         <registration_table>x_1300226_smpsalon_user_reg_req_097890</registration_table>
@@ -21,14 +21,14 @@
         <sys_created_on>2025-06-02 07:52:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>81103cc7837922104ed86f80ceaad376</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>ユーザー新規登録</sys_name>
         <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
         <sys_policy/>
         <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
         <sys_update_name>sys_user_registration_config_81103cc7837922104ed86f80ceaad376</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-06-04 08:09:38</sys_updated_on>
+        <sys_updated_on>2025-06-25 02:48:23</sys_updated_on>
         <terms_and_condition_url/>
         <transform_map display_value="u_reg_xmap_057199">2430300b837922104ed86f80ceaad372</transform_map>
         <user_onboarding_flow display_value="External User Onboarding">3539c77e5376001001a3ddeeff7b1214</user_onboarding_flow>
