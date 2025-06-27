@@ -12,6 +12,10 @@
         <script><![CDATA[var GetFacilityInformation = Class.create();
 GetFacilityInformation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
+	isPublic: function() {
+		return true;
+	},
+	
 	getFacilityData: function () {
 		var results = {status: "",
 					   data: {},
@@ -54,14 +58,14 @@ GetFacilityInformation.prototype = Object.extendsObject(global.AbstractAjaxProce
         <sys_created_by>hattori</sys_created_by>
         <sys_created_on>2025-06-03 07:24:33</sys_created_on>
         <sys_id>0a53f5db83b1a2104ed86f80ceaad3cd</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>GetFacilityInformation</sys_name>
         <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
         <sys_update_name>sys_script_include_0a53f5db83b1a2104ed86f80ceaad3cd</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-06-04 05:42:18</sys_updated_on>
+        <sys_updated_on>2025-06-26 08:18:24</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>0a53f5db83b1a2104ed86f80ceaad3cd</id>
