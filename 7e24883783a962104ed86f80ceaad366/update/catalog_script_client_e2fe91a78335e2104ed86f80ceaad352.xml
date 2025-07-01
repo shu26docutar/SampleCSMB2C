@@ -39,7 +39,7 @@
 	var use_date  = g_form.getValue('u_use_date');
 	var facilitys = g_form.getValue('u_use_facility');
 
-	var ajax = new GlideAjax('x_1300226_smpsalon.CheckReservationTime'); 
+	var ajax = new GlideAjax('getReservationRecordOnFlow.CheckReservationTime'); 
 	ajax.addParam('sysparm_name', 'getReservationRecord');
 	ajax.addParam('use_date',     use_date);
 	ajax.addParam('start_time',   newValue);
@@ -63,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e2fe91a78335e2104ed86f80ceaad352</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Check Start Time</sys_name>
         <sys_overrides/>
         <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
@@ -71,7 +71,7 @@
         <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
         <sys_update_name>catalog_script_client_e2fe91a78335e2104ed86f80ceaad352</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-06-04 05:10:16</sys_updated_on>
+        <sys_updated_on>2025-07-01 05:17:51</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

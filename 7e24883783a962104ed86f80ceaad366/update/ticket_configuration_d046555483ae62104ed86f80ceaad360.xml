@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ticket_configuration">
+    <ticket_configuration action="INSERT_OR_UPDATE">
+        <action_widget/>
+        <action_widget_param/>
+        <active>true</active>
+        <advanced>false</advanced>
+        <description_field>description</description_field>
+        <info_fields/>
+        <info_widget/>
+        <info_widget_param/>
+        <show_description/>
+        <state_field>state</state_field>
+        <sys_class_name>ticket_configuration</sys_class_name>
+        <sys_created_by>hattori</sys_created_by>
+        <sys_created_on>2025-07-01 04:26:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d046555483ae62104ed86f80ceaad360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1300226_smpsalon_samplereservationmanagement</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_update_name>ticket_configuration_d046555483ae62104ed86f80ceaad360</sys_update_name>
+        <sys_updated_by>hattori</sys_updated_by>
+        <sys_updated_on>2025-07-01 04:26:25</sys_updated_on>
+        <table>x_1300226_smpsalon_samplereservationmanagement</table>
+    </ticket_configuration>
+</record_update>

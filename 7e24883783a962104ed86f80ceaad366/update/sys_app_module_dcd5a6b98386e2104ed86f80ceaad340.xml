@@ -4,7 +4,7 @@
         <application display_value="施設利用サポートサービス">9d07944783f522104ed86f80ceaad30b</application>
         <assessment/>
         <device_type/>
-        <filter table="x_1300226_smpsalon_samplereservationmanagement">u_use_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^state=100^EQ<item endquery="false" field="u_use_date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+        <filter table="x_1300226_smpsalon_reservationmanagement">u_use_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^state=100^EQ<item endquery="false" field="u_use_date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
             <item display_value="利用前" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="100"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
@@ -15,7 +15,7 @@
         <map_page/>
         <mobile_title>本日の予約情報</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_1300226_smpsalon_samplereservationmanagement</name>
+        <name>x_1300226_smpsalon_reservationmanagement</name>
         <order>320</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dcd5a6b98386e2104ed86f80ceaad340</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>本日の予約情報</sys_name>
         <sys_overrides/>
         <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
         <sys_update_name>sys_app_module_dcd5a6b98386e2104ed86f80ceaad340</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-06-11 06:10:21</sys_updated_on>
+        <sys_updated_on>2025-07-01 05:31:56</sys_updated_on>
         <timeline_page/>
         <title>本日の予約情報</title>
         <uncancelable>false</uncancelable>

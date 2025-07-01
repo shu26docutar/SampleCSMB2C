@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="3361655483ee62104ed86f80ceaad34f" extends="sn_customerservice_case" label="ReservationManagement" max_length="40" name="x_1300226_smpsalon_reservationmanagement" type="collection">
+        <element label="利用終了時間" max_length="40" name="u_use_end_time" type="string"/>
+        <element label="利用開始時間" max_length="40" name="u_use_start_time" type="string"/>
+        <element label="利用予定施設" max_length="40" name="u_use_facility" reference="x_1300226_smpsalon_samplefacilitymodel" type="reference"/>
+        <element label="利用対象日" max_length="40" name="u_use_date" type="glide_date"/>
+    </element>
+</database>

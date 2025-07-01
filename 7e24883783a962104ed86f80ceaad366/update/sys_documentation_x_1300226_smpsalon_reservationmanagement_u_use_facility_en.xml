@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_use_facility" label="利用予定施設" language="en" table="x_1300226_smpsalon_reservationmanagement">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_use_facility</element>
+            <help/>
+            <hint/>
+            <label>利用予定施設</label>
+            <language>en</language>
+            <name>x_1300226_smpsalon_reservationmanagement</name>
+            <plural>利用予定施設s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hattori</sys_created_by>
+            <sys_created_on>2025-07-01 05:13:10</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>利用予定施設</sys_name>
+            <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
+            <sys_update_name>sys_documentation_x_1300226_smpsalon_reservationmanagement_u_use_facility_en</sys_update_name>
+            <sys_updated_by>hattori</sys_updated_by>
+            <sys_updated_on>2025-07-01 05:13:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -56,7 +56,7 @@
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_1300226_smpsalon_samplereservationmanagement</record_producer_table>
+        <record_producer_table>x_1300226_smpsalon_reservationmanagement</record_producer_table>
         <reference>cmdb_model_category</reference>
         <reference_qual>javascript: "parent_cateogry.sys_id=" + current.variables.category</reference_qual>
         <reference_qual_condition/>
@@ -79,14 +79,14 @@
         <sys_created_by>hattori</sys_created_by>
         <sys_created_on>2025-06-02 00:08:21</sys_created_on>
         <sys_id>a5064f72837122104ed86f80ceaad38d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>施設サブカテゴリ</sys_name>
-        <sys_package display_value="Sample Salon" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
+        <sys_package display_value="Falicity Support" source="x_1300226_smpsalon">7e24883783a962104ed86f80ceaad366</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Sample Salon">7e24883783a962104ed86f80ceaad366</sys_scope>
+        <sys_scope display_value="Falicity Support">7e24883783a962104ed86f80ceaad366</sys_scope>
         <sys_update_name>item_option_new_a5064f72837122104ed86f80ceaad38d</sys_update_name>
         <sys_updated_by>hattori</sys_updated_by>
-        <sys_updated_on>2025-06-02 00:08:21</sys_updated_on>
+        <sys_updated_on>2025-07-01 05:13:52</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
